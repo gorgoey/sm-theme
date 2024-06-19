@@ -17,6 +17,12 @@
           "settings": {
           }
         },
+        "sku_TW8CX7": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -70,6 +76,7 @@
       },
       "block_order": [
         "title",
+        "sku_TW8CX7",
         "price",
         "description",
         "variant_picker_ewzrHn",
