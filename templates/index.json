@@ -45,8 +45,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Empty-white-wall-in-modern-living-room-1920-1080.png",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
+        "image_2": "shopify:\/\/shop_images\/3.14-_-8-_-1920-1080.png",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
