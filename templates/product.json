@@ -28,6 +28,13 @@
           "settings": {
           }
         },
+        "text_RxjexH": {
+          "type": "text",
+          "settings": {
+            "text": "กว้าง x ยาว x สูง",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -78,6 +85,7 @@
         "title",
         "sku_TW8CX7",
         "price",
+        "text_RxjexH",
         "description",
         "variant_picker_ewzrHn",
         "collapsible-row-1",
