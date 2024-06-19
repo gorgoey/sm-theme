@@ -166,7 +166,7 @@
     "featured_collection1": {
       "type": "featured-collection",
       "settings": {
-        "title": "Proven bestsellers",
+        "title": "สินค้าแนะนำ",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
