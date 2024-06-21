@@ -147,12 +147,24 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>SM SAMAN FURNITER<\/p>"
+            "text": "<p><strong>สนใจสินค้าติดต่อที่ Line <\/strong><\/p>"
+          }
+        },
+        "button_Kwx7qK": {
+          "type": "button",
+          "settings": {
+            "button_label": "@SMMAN",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "text"
+        "text",
+        "button_Kwx7qK"
       ],
       "settings": {
         "desktop_content_position": "center",
