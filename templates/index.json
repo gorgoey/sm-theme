@@ -246,11 +246,11 @@
         "featured_collection5"
       ],
       "settings": {
-        "title": "Shop our top categories",
+        "title": "หมวดหมู่ที่น่าสนใจ",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-5",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -304,6 +304,7 @@
         "column9",
         "column10"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -323,6 +324,7 @@
     },
     "featured_collection2": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "New arrivals",
         "heading_size": "h2",
@@ -395,6 +397,7 @@
         "column13",
         "column14"
       ],
+      "disabled": true,
       "settings": {
         "title": "You're set up for success",
         "heading_size": "h2",
