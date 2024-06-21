@@ -124,6 +124,7 @@
         "column5",
         "column6"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -209,7 +210,7 @@
         "featured_collection1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ห้องนอน"
           }
         },
         "featured_collection2": {
