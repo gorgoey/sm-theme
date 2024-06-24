@@ -207,12 +207,6 @@
     "collection_list": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ห้องนอน"
-          }
-        },
         "featured_collection2": {
           "type": "featured_collection",
           "settings": {
@@ -221,9 +215,14 @@
         },
         "featured_collection3": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "ตู้โชว์"
+          }
+        },
+        "featured_collection1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ห้องนอน"
           }
         },
         "featured_collection4": {
@@ -242,9 +241,9 @@
         }
       },
       "block_order": [
-        "featured_collection1",
         "featured_collection2",
         "featured_collection3",
+        "featured_collection1",
         "featured_collection4",
         "featured_collection5"
       ],
