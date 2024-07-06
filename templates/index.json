@@ -227,9 +227,8 @@
         },
         "featured_collection4": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "ตู้เสื้อผ้า"
           }
         },
         "featured_collection5": {
