@@ -25,14 +25,8 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
-          }
-        },
-        "text_RxjexH": {
-          "type": "text",
-          "settings": {
-            "text": "กว้าง x ยาว x สูง",
-            "text_style": "body"
           }
         },
         "description": {
@@ -49,6 +43,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product features",
             "icon": "star",
@@ -58,6 +53,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials and care",
             "icon": "leaf",
@@ -67,6 +63,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Merchandising tips",
             "icon": "check_mark",
@@ -79,19 +76,33 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "buy_buttons_bfE9wc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_yMa6XM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a class=\"btn-main\" href=\"#\">Line<\/a>"
+          }
         }
       },
       "block_order": [
         "title",
         "sku_TW8CX7",
         "price",
-        "text_RxjexH",
         "description",
         "variant_picker_ewzrHn",
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
-        "share"
+        "share",
+        "buy_buttons_bfE9wc",
+        "custom_liquid_yMa6XM"
       ],
       "settings": {
         "enable_sticky_info": true,
