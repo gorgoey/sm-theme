@@ -71,23 +71,16 @@
             "page": "merchandising-tips"
           }
         },
+        "custom_liquid_yMa6XM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h5>ติดต่อเป็นตัวแทนของเราที่นี้<\/h5>\n<a class=\"btn-main\" href=\"#\">Line<\/a>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "buy_buttons_bfE9wc": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "custom_liquid_yMa6XM": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a class=\"btn-main\" href=\"#\">Line<\/a>"
           }
         }
       },
@@ -100,9 +93,8 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
-        "share",
-        "buy_buttons_bfE9wc",
-        "custom_liquid_yMa6XM"
+        "custom_liquid_yMa6XM",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
