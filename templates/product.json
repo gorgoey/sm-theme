@@ -12,6 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "rating_Jp3AJH": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -25,14 +30,18 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
-        "text_RxjexH": {
-          "type": "text",
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "text": "กว้าง x ยาว x สูง",
-            "text_style": "body"
+            "heading": "ขนาด",
+            "icon": "ruler",
+            "content": "",
+            "page": "product-features"
           }
         },
         "description": {
@@ -42,22 +51,15 @@
         },
         "variant_picker_ewzrHn": {
           "type": "variant_picker",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
-            "picker_type": "dropdown",
+            "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product features",
-            "icon": "star",
-            "content": "",
-            "page": "product-features"
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials and care",
             "icon": "leaf",
@@ -67,6 +69,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Merchandising tips",
             "icon": "check_mark",
@@ -79,19 +82,26 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_yMa6XM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h5>สนใจสินค้าของเราติดต่อได้ที่นี้<\/h5>\n<div class=\"product-btn-row\">\n<a class=\"btn-main line\" href=\"#\">Add Line<\/a>\n<a class=\"btn-main \" href=\"#\">โทรติดต่อเรา<\/a>"
+          }
         }
       },
       "block_order": [
+        "rating_Jp3AJH",
         "title",
         "sku_TW8CX7",
         "price",
-        "text_RxjexH",
+        "collapsible-row-1",
         "description",
         "variant_picker_ewzrHn",
-        "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
-        "share"
+        "share",
+        "custom_liquid_yMa6XM"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -123,7 +133,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Other industry favorites",
+        "heading": "Other industry favorites{{ product.title }}",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
@@ -137,11 +147,40 @@
         "padding_top": 36,
         "padding_bottom": 44
       }
+    },
+    "featured_collection_K4BRac": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "สินค้าที่น่าสนใจ",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ตู้เสื้อผ้า",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "quick-order-list",
-    "related-products"
+    "related-products",
+    "featured_collection_K4BRac"
   ]
 }
