@@ -86,7 +86,7 @@
         "custom_liquid_yMa6XM": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h5>สนใจสินค้าของเราติดต่อได้ที่นี้<\/h5>\n<a class=\"btn-main line\" href=\"#\">Add Line<\/a>\n<a class=\"btn-main \" href=\"#\">โทรติดต่อเรา<\/a>"
+            "custom_liquid": "<h5>สนใจสินค้าของเราติดต่อได้ที่นี้<\/h5>\n<div class=\"product-btn-row\">\n<a class=\"btn-main line\" href=\"#\">Add Line<\/a>\n<a class=\"btn-main \" href=\"#\">โทรติดต่อเรา<\/a>"
           }
         }
       },
