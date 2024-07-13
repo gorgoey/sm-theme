@@ -36,13 +36,15 @@
         },
         "variant_picker_ewzrHn": {
           "type": "variant_picker",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
-            "picker_type": "dropdown",
+            "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "สี",
             "icon": "price_tag",
