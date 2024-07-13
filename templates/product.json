@@ -12,6 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "rating_Jp3AJH": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -72,20 +77,21 @@
             "page": "merchandising-tips"
           }
         },
-        "custom_liquid_yMa6XM": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h5>ติดต่อเป็นตัวแทนของเราที่นี้<\/h5>\n<a class=\"btn-main\" href=\"#\">Add Line<\/a>\n<a class=\"btn-main\" href=\"#\">โทรติดต่อเรา<\/a>"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_yMa6XM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h5>สนใจสินค้าของเราติดต่อได้ที่นี้<\/h5>\n<a class=\"btn-main\" href=\"#\">Add Line<\/a>\n<a class=\"btn-main\" href=\"#\">โทรติดต่อเรา<\/a>"
+          }
         }
       },
       "block_order": [
+        "rating_Jp3AJH",
         "title",
         "sku_TW8CX7",
         "price",
@@ -94,8 +100,8 @@
         "variant_picker_ewzrHn",
         "collapsible-row-0",
         "collapsible-row-2",
-        "custom_liquid_yMa6XM",
-        "share"
+        "share",
+        "custom_liquid_yMa6XM"
       ],
       "settings": {
         "enable_sticky_info": true,
