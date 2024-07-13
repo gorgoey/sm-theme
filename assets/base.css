@@ -3454,3 +3454,24 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+.product-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-btn-row  a {
+  display: block;
+}
+
+.btn-main {
+  text-decoration: none;
+  padding: .25em 1em;
+  background: #000;
+}
+
+.btn-main.line {
+  background: #06c755;
+  color: #fff;
+}
