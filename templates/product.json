@@ -29,6 +29,15 @@
           "settings": {
           }
         },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ขนาด",
+            "icon": "ruler",
+            "content": "",
+            "page": "product-features"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -40,16 +49,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "สี",
-            "icon": "price_tag",
-            "content": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_tag: field: 'label' }}",
-            "page": "product-features"
           }
         },
         "collapsible-row-0": {
@@ -89,9 +88,9 @@
         "title",
         "sku_TW8CX7",
         "price",
+        "collapsible-row-1",
         "description",
         "variant_picker_ewzrHn",
-        "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
         "custom_liquid_yMa6XM",
