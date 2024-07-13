@@ -43,11 +43,10 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Product features",
-            "icon": "star",
-            "content": "",
+            "heading": "สี",
+            "icon": "price_tag",
+            "content": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_tag: field: 'label' }}",
             "page": "product-features"
           }
         },
