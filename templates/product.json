@@ -42,15 +42,6 @@
             "heading_3": ""
           }
         },
-        "collapsible_tab_A8zaaD": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "ติดต่อสอบถามราคา",
-            "icon": "price_tag",
-            "content": "<p><strong>อาจจะมีการเปลี่ยนแปลงตาม เวลา และ จำนวนชิ้นที่สั่งผลิต <\/strong><strong>โปรดติดต่อเรา <\/strong><a href=\"#\" target=\"_blank\" title=\"#\"><strong>@Line <\/strong><\/a><strong>หรือ <\/strong><a href=\"#\" title=\"#\"><strong>โทรหาเรา<\/strong><\/a><strong> <\/strong><\/p>",
-            "page": ""
-          }
-        },
         "sku_TW8CX7": {
           "type": "sku",
           "settings": {
@@ -96,6 +87,15 @@
             "page": "merchandising-tips"
           }
         },
+        "collapsible_tab_A8zaaD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ติดต่อสอบถามราคา",
+            "icon": "price_tag",
+            "content": "<p><strong>อาจจะมีการเปลี่ยนแปลงตาม เวลา และ จำนวนชิ้นที่สั่งผลิต โปรดติดต่อเรา <\/strong><a href=\"#\" target=\"_blank\" title=\"#\"><strong>@Line <\/strong><\/a><strong>หรือ <\/strong><a href=\"#\" title=\"#\"><strong>โทรหาเรา<\/strong><\/a><strong> <\/strong><\/p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -114,13 +114,13 @@
         "title",
         "text_eCgzxf",
         "icon_with_text_fmt9TV",
-        "collapsible_tab_A8zaaD",
         "sku_TW8CX7",
         "price",
         "description",
         "variant_picker_ewzrHn",
         "collapsible-row-0",
         "collapsible-row-2",
+        "collapsible_tab_A8zaaD",
         "share",
         "custom_liquid_yMa6XM"
       ],
