@@ -140,6 +140,60 @@
         "padding_bottom": 40
       }
     },
+    "slideshow_XnVE8t": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tjWEq8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_tNXK7J": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tjWEq8",
+        "slide_tNXK7J"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
     "quick-order-list": {
       "type": "quick-order-list",
       "disabled": true,
@@ -200,6 +254,7 @@
   },
   "order": [
     "main",
+    "slideshow_XnVE8t",
     "quick-order-list",
     "related-products",
     "featured_collection_K4BRac"
