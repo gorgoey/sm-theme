@@ -185,7 +185,7 @@
         "slide_tNXK7J"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,
