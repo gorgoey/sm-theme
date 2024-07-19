@@ -148,10 +148,24 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1.jpg"
           }
+        },
+        "image_yACxbX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/halfside-size-02.jpg"
+          }
+        },
+        "image_kwYdCL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/center-size-05.jpg"
+          }
         }
       },
       "block_order": [
-        "image_xDFQT7"
+        "image_xDFQT7",
+        "image_yACxbX",
+        "image_kwYdCL"
       ],
       "settings": {
         "heading": "Product Description",
