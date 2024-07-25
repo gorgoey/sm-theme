@@ -285,6 +285,12 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
+            {% if card_product.metafields.shopify.color-pattern %}
+              <div class="color-pattern">
+                <h3>Color Pattern:</h3>
+                <p>{{ card_product.metafields.shopify['color-pattern'] }}</p>
+              </div>
+            {% endif %}
           </div>
         </div>
         {% if quick_add == 'standard' %}
