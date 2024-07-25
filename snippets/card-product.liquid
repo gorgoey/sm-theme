@@ -286,9 +286,9 @@
               {% endif %}
             {%- endif -%}
             {% comment %} Show color options {% endcomment %}
-            {%- if product_card_product.metafields.custom.color.type == "list.color"  -%}
+            {%- if product_card_product.metafields.shopify.color-pattern.type == "list.color"  -%}
             <div class="color-options">
-              {%- for color in product_card_product.metafields.custom.color.value -%}
+              {%- for color in product_card_product.metafields.shopify.color-pattern.value -%}
                 <div class="color-options__item" style="background-color:{{color}};">&nbsp;</div>
               {%- endfor -%}
             </div>
