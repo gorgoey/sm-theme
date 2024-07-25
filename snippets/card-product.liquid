@@ -285,25 +285,6 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
-            {% comment %} Show color options {% endcomment %}
-            {% comment %}{%- if card_product.metafields.custom.color.type == "list.color"  -%}
-            <div class="color-options">
-              {%- for color in card_product.metafields.custom.color.value -%}
-                <div class="color-options__item" style="background-color:{{color}};">&nbsp;</div>
-              {%- endfor -%}
-            </div>
-            {%- endif -%}{% endcomment %}
-            {% assign color_patterns = product.metafields.shopify.color-pattern %}
-            {% if color_patterns %}
-              <div class="color-pattern-list">
-                <h3>Color Patterns:</h3>
-                <ul>
-                  {% for pattern in color_patterns %}
-                    <li>{{ pattern }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endif %}
           </div>
         </div>
         {% if quick_add == 'standard' %}
