@@ -204,7 +204,7 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
-            {%- if card_product.quantity_price_breaks_configured? -%}
+            {% comment %}{%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
                 {% liquid
                   assign quantity_rule = card_product.selected_or_first_available_variant.quantity_rule
@@ -284,7 +284,7 @@
                 </div>
                 </quantity-popover>
               {% endif %}
-            {%- endif -%}
+            {%- endif -%}{% endcomment %}
             {% comment%}{% if card_product.metafields.shopify.color-pattern %}
               <div class="color-pattern">
                 <h3>Color Pattern:</h3>
@@ -585,7 +585,7 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            {% render 'price', show_compare_at_price: true %}
+            {% comment %}{% render 'price', show_compare_at_price: true %}{% endcomment %}
           </div>
         </div>
       </div>
