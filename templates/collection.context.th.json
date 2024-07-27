@@ -13,5 +13,13 @@
     "market": "th"
   },
   "sections": {
+    "product-grid": {
+      "settings": {
+        "show_vendor": true,
+        "show_secondary_image": true
+      },
+      "blocks": {
+      }
+    }
   }
 }
