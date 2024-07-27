@@ -173,16 +173,16 @@
             "collection": "frontpage"
           }
         },
+        "featured_collection5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ชั้นวาง-tv"
+          }
+        },
         "featured_collection3": {
           "type": "featured_collection",
           "settings": {
             "collection": "ตู้โชว์"
-          }
-        },
-        "featured_collection1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ห้องนอน"
           }
         },
         "featured_collection4": {
@@ -191,20 +191,54 @@
             "collection": "ตู้เสื้อผ้า"
           }
         },
-        "featured_collection5": {
+        "featured_collection_h7PLbA": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "โต๊ะเครื่องแป้ง"
+          }
+        },
+        "featured_collection_e3AzhU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ตู้กับข้าวอลูมิเนียม"
+          }
+        },
+        "featured_collection_YgENtN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ตู้เสื้อผ้าอลูมิเนียม"
+          }
+        },
+        "featured_collection_UH9iF3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ตู้โชว์อลูมิเนียม"
+          }
+        },
+        "featured_collection_q6DKrn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "เตียง"
+          }
+        },
+        "featured_collection_iUxiPx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ที่นอน"
           }
         }
       },
       "block_order": [
         "featured_collection2",
+        "featured_collection5",
         "featured_collection3",
-        "featured_collection1",
         "featured_collection4",
-        "featured_collection5"
+        "featured_collection_h7PLbA",
+        "featured_collection_e3AzhU",
+        "featured_collection_YgENtN",
+        "featured_collection_UH9iF3",
+        "featured_collection_q6DKrn",
+        "featured_collection_iUxiPx"
       ],
       "settings": {
         "title": "หมวดหมู่ที่น่าสนใจ",
