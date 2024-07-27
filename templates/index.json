@@ -164,73 +164,6 @@
         "padding_bottom": 12
       }
     },
-    "collage_9wEbPb": {
-      "type": "collage",
-      "blocks": {
-        "image_VctYeM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Empty-white-wall-in-modern-living-room-1920-1080.png"
-          }
-        },
-        "product_Brb9VP": {
-          "type": "product",
-          "settings": {
-            "product": "ตู้เสื้อผ้า-ทึบ-4-ฟุต-กระจกเงากลาง",
-            "second_image": false
-          }
-        },
-        "collection_gaannG": {
-          "type": "collection",
-          "settings": {
-            "collection": "ชั้นวาง-tv"
-          }
-        }
-      },
-      "block_order": [
-        "image_VctYeM",
-        "product_Brb9VP",
-        "collection_gaannG"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "สินค้าแนะนำ",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage",
-        "products_to_show": 10,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 52
-      }
-    },
     "collection_list": {
       "type": "collection-list",
       "blocks": {
@@ -278,12 +211,79 @@
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 48,
         "padding_bottom": 60
+      }
+    },
+    "featured_collection1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "สินค้าแนะนำ",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-4",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "collage_9wEbPb": {
+      "type": "collage",
+      "blocks": {
+        "image_VctYeM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Empty-white-wall-in-modern-living-room-1920-1080.png"
+          }
+        },
+        "product_Brb9VP": {
+          "type": "product",
+          "settings": {
+            "product": "ตู้เสื้อผ้า-ทึบ-4-ฟุต-กระจกเงากลาง",
+            "second_image": false
+          }
+        },
+        "collection_gaannG": {
+          "type": "collection",
+          "settings": {
+            "collection": "ชั้นวาง-tv"
+          }
+        }
+      },
+      "block_order": [
+        "image_VctYeM",
+        "product_Brb9VP",
+        "collection_gaannG"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn1": {
@@ -448,9 +448,9 @@
     "image_banner",
     "multicolumn",
     "rich_text",
-    "collage_9wEbPb",
-    "featured_collection1",
     "collection_list",
+    "featured_collection1",
+    "collage_9wEbPb",
     "multicolumn1",
     "featured_collection2",
     "multicolumn2"
