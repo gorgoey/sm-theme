@@ -13,5 +13,17 @@
     "market": "th"
   },
   "sections": {
+    "footer": {
+      "settings": {
+        "enable_follow_on_shop": false,
+        "payment_enable": false,
+        "enable_language_selector": false,
+        "enable_country_selector": false,
+        "newsletter_enable": true,
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+      }
+    }
   }
 }
