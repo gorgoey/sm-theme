@@ -1,0 +1,124 @@
+
+<section class="product-variants">
+    <div class="container" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+        <div class="product-variant">
+            <ul>
+                    {% for variant in product.variants %}
+                        <li>
+                            <div class="product-variant-item">
+                                <div class="product-variant-image">
+                                    {% assign variant_image = variant.featured_image.src %}
+                                    {% if variant_image %}
+                                        <img src="{{ variant_image | img_url: 'large' }}" alt="{{ variant.title }}" />
+                                    {% else %}
+                                        <p>No image available for this variant.</p>
+                                    {% endif %}
+                                </div>
+                                <div class="product-variant-info">
+                                    <span class="product-variant-title h5">{{ variant.option1 }}</span>
+                                    <span class="product-variant-sku">{{ variant.sku }}</span>
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+  <section class="product-variants">
+    <div class="container" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+        <div class="product-variant">
+            {% for variant in product.variants %}
+                <ul>
+                    <li>
+                        <div class="variant">
+                            <h3>{{ variant.title }}</h3>
+                            {% assign variant_images = product.images | where: 'attached_to_variant?', variant.image_id | map: 'src' %}
+                            {% if variant_images.size > 0 %}
+                              {% for image in variant_images %}
+                                <img src="{{ image | img_url: 'large' }}" alt="{{ variant.title }}" />
+                              {% endfor %}
+                            {% else %}
+                              <p>No image available for this variant.</p>
+                            {% endif %}
+                            
+                            <p>Color: {{ variant.option1 }}</p> <!-- Assuming 'option1' is the color name -->
+                            <p>SKU: {{ variant.sku }}</p>
+                        </div>
+                    </li>
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
+  </section>
+
+
+  {% comment %}
+  Variant List Row
+
+  Accepts:
+  - item: {Object} Variant or Product object
+  - sku: {String} Sku of Product or Variant (optional)
+  - image: {Object} Product or Variant image (optional)
+  Usage:
+  {% render 'quick-order-list-row' variant: variant %}
+
+{% # theme-check-disable %}
+
+    {% assign cart_qty = cart | item_count_for_variant: variant.id %}
+
+{% # theme-check-enable %}
+{% endcomment %}
+{% for variant in product.variants %}
+<section class="product-variants" >
+    <div class="container" style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+        <div class="product-variant">
+            <ul 
+                id="Variant-{{ variant.id }}"
+                data-variant-id="{{ variant.id }}"
+                data-cart-qty="{{ cart_qty }}"
+            >
+                <li>
+                    <div class="product-variant-item">
+                        <div class="product-variant-image">
+                            {%- if show_image -%}
+                            {%- assign img_height = 43 | divided_by: image.aspect_ratio | ceil -%}
+                            {{
+                                image
+                                | image_url: width: 86
+                                | image_tag:
+                                loading: 'lazy',
+                                fetchpriority: 'low',
+                                decoding: 'async',
+                                class: 'variant-item__image',
+                                width: 43,
+                                height: img_height,
+                                widths: '86',
+                                alt: image.alt
+                                | escape
+                            }}
+                            {% endif %}
+                        </div>
+                        <div class="product-variant-title">
+                            <h4>{{ item.title | escape }}</h4>
+                            {%- if show_sku -%}
+                                <span class="variant-item__sku break">{{ sku | escape }}</span>
+                            {%- endif -%}
+                        </div>
+                        <div class="product-variant-sku">
+                            <div class="variant-item__info">
+                                <span class="variant-item__name h4 break">{{ item.title | escape }}</span>
+                                {%- if show_sku -%}
+                                  <span class="variant-item__sku break">{{ sku | escape }}</span>
+                                {%- endif -%}
+                              </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+{% endfor %}
