@@ -92,7 +92,7 @@
           "settings": {
             "heading": "ติดต่อสอบถามราคา",
             "icon": "price_tag",
-            "content": "<p><strong>อาจจะมีการเปลี่ยนแปลงตาม เวลา และ จำนวนชิ้นที่สั่งผลิต โปรดติดต่อเรา <\/strong><a href=\"#\" target=\"_blank\" title=\"#\"><strong>@Line <\/strong><\/a><strong>หรือ <\/strong><a href=\"#\" title=\"#\"><strong>โทรหาเรา<\/strong><\/a><strong> <\/strong><\/p>",
+            "content": "<p><strong>อาจจะมีการเปลี่ยนแปลงตาม เวลา และ จำนวนชิ้นที่สั่งผลิต โปรดติดต่อเรา <\/strong><a href=\"#\" target=\"_blank\" title=\"#\"><strong>@Line <\/strong><\/a><strong>หรือ โทรหาเรา <\/strong><a href=\"tel:095-621-4868\" target=\"_blank\" title=\"tel:095-621-4868\"><strong>095-621-4868<\/strong><\/a><strong> , <\/strong><a href=\"tel:089-844-1877\" target=\"_blank\" title=\"tel:089-844-1877\"><strong>089-844-1877<\/strong><\/a><\/p>",
             "page": ""
           }
         },
