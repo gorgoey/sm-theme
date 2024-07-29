@@ -3481,3 +3481,16 @@ details-disclosure > details {
   background: #06c755;
   color: #fff;
 }
+
+
+.product-variant .variant ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.product-variant .variant ul li {
+  border: 2px solid #000;
+  border-radius: 15px;
+}
