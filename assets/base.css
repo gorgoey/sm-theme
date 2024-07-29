@@ -3493,7 +3493,7 @@ details-disclosure > details {
 .product-variant .variant ul li {
   border: 1px solid #eaeaea;
   border-radius: 15px;
-  padding: .5em;
+  padding: .75em;
   flex: 0 0 24%;
   max-width: 24%;
   margin: .25em;
