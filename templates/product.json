@@ -198,6 +198,15 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_njmy87": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "quick-order-list": {
       "type": "quick-order-list",
       "disabled": true,
@@ -261,6 +270,7 @@
     "collage_6ARU4y",
     "collage_wRiNdx",
     "custom_liquid_yBUbcL",
+    "custom_liquid_njmy87",
     "quick-order-list",
     "related-products",
     "featured_collection_K4BRac"
