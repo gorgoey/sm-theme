@@ -199,7 +199,6 @@
     },
     "quick-order-list": {
       "type": "quick-order-list",
-      "disabled": true,
       "settings": {
         "show_image": true,
         "show_sku": true,
