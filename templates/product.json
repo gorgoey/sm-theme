@@ -212,7 +212,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Other industry favorites{{ product.title }}",
+        "heading": "สินค้าอื่นที่คล้าย {{ product.title }}",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
