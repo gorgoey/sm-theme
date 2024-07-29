@@ -3455,6 +3455,30 @@ details-disclosure > details {
   }
 }
 
+.collection-hero {
+  position: relative;
+  padding: 0;
+}
+
+.collection-hero .collection-hero__text-wrapper {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.collection-hero .collection-hero__text-wrapper h1.collection-hero__title {
+  color: #fff;
+}
+
+.collection-hero__image-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+}
+
 .header__icon.header__icon--cart {
   display: none;
 }
