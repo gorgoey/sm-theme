@@ -177,6 +177,7 @@
       "block_order": [
         "image_TVQBCT"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
