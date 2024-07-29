@@ -3525,4 +3525,6 @@ details-disclosure > details {
   border-radius: 10px;
   padding: .25em;
   margin: .25em;
+  max-width: 23%;
+  flex: 0 0 23%
 }
