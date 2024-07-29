@@ -3528,3 +3528,7 @@ details-disclosure > details {
   max-width: 23%;
   flex: 0 0 23%
 }
+
+.product-variants .product-variant li .product-variant-item .product-variant-image img {
+ max-width: 100%;
+}
