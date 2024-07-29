@@ -3464,10 +3464,13 @@ details-disclosure > details {
   position: relative;
   z-index: 2;
   color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .collection-hero .collection-hero__text-wrapper h1.collection-hero__title {
   color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .collection-hero .collection-hero__image-container {
