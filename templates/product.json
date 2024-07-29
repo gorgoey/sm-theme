@@ -191,7 +191,7 @@
     "custom_liquid_yBUbcL": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% for variant in product.variants %}\n  <div class=\"variant\">\n    <h3>{{ variant.title }}<\/h3>\n    {% assign variant_images = variant.metafields.custom.variant_images %}\n    {% if variant_images %}\n      {% for image in variant_images %}\n        <img src=\"{{ image | img_url: 'large' }}\" alt=\"{{ image.alt }}\" \/>\n      {% endfor %}\n    {% else %}\n      <p>No images available for this variant.<\/p>\n    {% endif %}\n  <\/div>\n{% endfor %}",
+        "custom_liquid": "{% for variant in product.variants %}\n  <div class=\"variant\">\n    <h3>{{ variant.title }}<\/h3>\n    {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}\n    {% if variant_images %}\n      {% for image in variant_images %}\n        <img src=\"{{ image | img_url: 'large' }}\" alt=\"{{ image.alt }}\" \/>\n      {% endfor %}\n    {% else %}\n      <p>No images available for this variant.<\/p>\n    {% endif %}\n  <\/div>\n{% endfor %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
