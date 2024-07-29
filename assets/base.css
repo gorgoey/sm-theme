@@ -3470,12 +3470,12 @@ details-disclosure > details {
   color: #fff;
 }
 
-.collection-hero__image-container {
+.collection-hero .collection-hero__image-container {
   position: absolute;
   left: 0;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin-left: 0;
   border: 0;
 }
 
