@@ -200,6 +200,15 @@
         "padding_bottom": 16
       }
     },
+    "custom_liquid_KYq4tM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section class=\"product-variant\">\n  <div class=\"container\" style=\"max-width: 1200px; margin-left: auto; margin-right: auto;\">\n    <div class=\"product-variant\">\n      {% comment %}{% for variant in product.variants %}{% endcomment %}\n      <div class=\"variant\">\n        <h3>{{ variant.title }}<\/h3>\n        <ul>\n            {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}\n            {% if variant_images %}\n            {% for image in variant_images %}\n                <li>\n                    <img src=\"{{ image | img_url: 'large' }}\" alt=\"{{ image.alt }}\" \/>\n                <\/li>\n            {% endfor %}\n            {% else %}\n            <p>No images available for this variant.<\/p>\n            {% endif %}\n        <\/ul>\n      <\/div>\n      {% comment %}{% endfor %}{% endcomment %}\n    <\/div>\n  <\/div>\n<\/section>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -252,6 +261,7 @@
     "collage_6ARU4y",
     "collage_wRiNdx",
     "quick-order-list",
+    "custom_liquid_KYq4tM",
     "related-products",
     "featured_collection_K4BRac"
   ]
