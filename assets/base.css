@@ -3504,6 +3504,7 @@ details-disclosure > details {
 
 .product-btn-row.sub-row a.btn-main {
   max-width: 49%;
+  margin: .25em 0;
 }
 
 .btn-main {
