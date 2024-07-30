@@ -3518,6 +3518,7 @@ details-disclosure > details {
   margin-left: 0;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .product-variants .product-variant li {
@@ -3525,8 +3526,21 @@ details-disclosure > details {
   border-radius: 10px;
   padding: .5em;
   margin: .25em;
-  max-width: 23%;
-  flex: 0 0 23%
+  
+}
+
+@media only screen and (min-width: 750px) {
+  .product-variants .product-variant li {
+    max-width: 23%;
+    flex: 0 0 23%
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .product-variants .product-variant li {
+    max-width: 31%;
+    flex: 0 0 31%
+  }
 }
 
 .product-variants .product-variant li .product-variant-item .product-variant-image img {
