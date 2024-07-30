@@ -3463,23 +3463,17 @@ details-disclosure > details {
 .collection-hero .collection-hero__text-wrapper {
   position: relative;
   z-index: 2;
-  color: #fff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
 }
 
 .collection-hero .collection-hero__text-wrapper h1.collection-hero__title {
-  color: #fff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
 
-.collection-hero .collection-hero__image-container {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-left: 0;
-  border: 0;
+}
+@media screen and (min-width: 750px) {
+  .collection-hero .collection-hero__image-container {
+    flex: 1 0 70%;
+    min-height: 35rem;
+  }
 }
 
 .header__icon.header__icon--cart {
