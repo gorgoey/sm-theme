@@ -39,9 +39,10 @@
         "row_7nkBT3": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "บริษัท เอสเอ็ม สมานเฟอร์นิเจอร์ จำกัด",
-            "text": "<p>160 หมู่ 1 ตำบล ไพรขลา อำเภอ ชุมพลบุรี<br\/>จังหวัด สุรินทร์<br\/>โทร : 081-470-1238 , 084-227-7227<br\/>Email : sm.samanfurniture@gmail.com<\/p>",
+            "image": "shopify:\/\/shop_images\/map.jpg",
+            "caption": "",
+            "heading": "<strong>บริษัท เอสเอ็ม สมานเฟอร์นิเจอร์ จำกัด<\/strong>",
+            "text": "<p>160 หมู่ 1 ตำบล ไพรขลา อำเภอ ชุมพลบุรี<br\/>จังหวัด สุรินทร์<br\/>โทร : <a href=\"tel:081-470-1238\" title=\"tel:081-470-1238\">081-470-1238<\/a> , <a href=\"tel:084-227-7227\" title=\"tel:084-227-7227\">084-227-7227<\/a><br\/>Email : <a href=\"mailto:sm.samanfurniture@gmail.com\" title=\"mailto:sm.samanfurniture@gmail.com\">sm.samanfurniture@gmail.com<\/a><\/p>",
             "button_label": "Google Map",
             "button_link": "https:\/\/maps.app.goo.gl\/MGCB9ygcZTZgHZLZ7"
           }
@@ -53,13 +54,13 @@
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-2",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
