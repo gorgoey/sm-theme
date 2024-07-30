@@ -1,1 +1,86 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":36}},"image_banner":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/Image_banner_2x_8.png","image_overlay_opacity":20,"image_height":"adapt","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"form":{"type":"contact-form","settings":{"heading":"Questions or comments? Get in touch and we'll be happy to help.","heading_size":"h2","color_scheme":"scheme-1","padding_top":36,"padding_bottom":36}}},"order":["main","image_banner","form"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/62_b0b7ac87-93ef-401b-b69a-ea76c602e005.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_MRdTHK": {
+      "type": "multirow",
+      "blocks": {
+        "row_7nkBT3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "บริษัท เอสเอ็ม สมานเฟอร์นิเจอร์ จำกัด",
+            "text": "<p>160 หมู่ 1 ตำบล ไพรขลา อำเภอ ชุมพลบุรี<br\/>จังหวัด สุรินทร์<br\/>โทร : 081-470-1238 , 084-227-7227<br\/>Email : sm.samanfurniture@gmail.com<\/p>",
+            "button_label": "Google Map",
+            "button_link": "https:\/\/maps.app.goo.gl\/MGCB9ygcZTZgHZLZ7"
+          }
+        }
+      },
+      "block_order": [
+        "row_7nkBT3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "ติดต่อสอบถามรายละเอียดได้ที่นี้",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner",
+    "multirow_MRdTHK",
+    "form"
+  ]
+}
