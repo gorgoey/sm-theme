@@ -3498,6 +3498,14 @@ details-disclosure > details {
   margin: .25em auto;
 }
 
+.product-btn-row.sub-row {
+  justify-content: space-between; 
+}
+
+.product-btn-row.sub-row a.btn-main {
+  max-width: 49%;
+}
+
 .btn-main {
   text-decoration: none;
   padding: .5em 1em;
