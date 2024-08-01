@@ -48,6 +48,13 @@
             "text_style": "body"
           }
         },
+        "text_BDQ7zr": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -69,9 +76,8 @@
         },
         "custom_liquid_yVfzD6": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "{% for variant in product.variants %}\n  <p>Variant: {{ variant.title }}<\/p>\n  <p>Material: {{ variant.metafields.custom.mattresssize }}<\/p>\n\n{% if variant.metafields.custom.mattresssize %}\n  <p>Material: {{ variant.metafields.custom.mattresssize }}<\/p>\n{% else %}\n  <p>Material information is not available.<\/p>\n{% endif %}\n\n\n{% endfor %}"
+            "custom_liquid": "{% assign selected_variant = product.variants | first %}\n{% if selected_variant %}\n  <p>Mattress Size: {{ selected_variant.metafields.custom.mattresssize }}<\/p>\n{% else %}\n  <p>Variant not found.<\/p>\n{% endif %}"
           }
         },
         "collapsible-row-0": {
@@ -122,6 +128,7 @@
         "text_eCgzxf",
         "icon_with_text_fmt9TV",
         "sku_TW8CX7",
+        "text_BDQ7zr",
         "price",
         "description",
         "variant_picker_ewzrHn",
@@ -199,7 +206,6 @@
     },
     "custom_liquid_yBUbcL": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<section class=\"product-variants\">\n    <div class=\"container\" style=\"max-width: 1200px; margin-left: auto; margin-right: auto;\">\n        <div class=\"product-variant\">\n            <ul>\n                    {% for variant in product.variants %}\n                        <li>\n                            <div class=\"product-variant-item\">\n                                <div class=\"product-variant-image\">\n                                    {% assign variant_image = variant.featured_image.src %}\n                                    {% if variant_image %}\n                                        <img src=\"{{ variant_image | img_url: 'large' }}\" alt=\"{{ variant.title }}\" \/>\n                                    {% else %}\n                                        <p>No image available for this variant.<\/p>\n                                    {% endif %}\n                                <\/div>\n                                <div class=\"product-variant-info\">\n                                    <span class=\"product-variant-title h5\">{{ variant.option1 }}<\/span>\n                                    <span class=\"product-variant-sku\">{{ variant.sku }}<\/span>\n                                <\/div>\n                            <\/div>\n                        <\/li>\n                    {% endfor %}\n            <\/ul>\n        <\/div>\n    <\/div>\n<\/section>",
         "color_scheme": "scheme-2",
