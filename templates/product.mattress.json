@@ -154,12 +154,12 @@
         "image_xDFQT7"
       ],
       "settings": {
-        "heading": "รูปตัวอย่างของสินค้า",
+        "heading": "สามารถเลือก ลายผ้าของที่นอนได้ตามรูปด้านล่างนี้",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "scheme-5",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -191,6 +191,7 @@
     },
     "custom_liquid_yBUbcL": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<section class=\"product-variants\">\n    <div class=\"container\" style=\"max-width: 1200px; margin-left: auto; margin-right: auto;\">\n        <div class=\"product-variant\">\n            <ul>\n                    {% for variant in product.variants %}\n                        <li>\n                            <div class=\"product-variant-item\">\n                                <div class=\"product-variant-image\">\n                                    {% assign variant_image = variant.featured_image.src %}\n                                    {% if variant_image %}\n                                        <img src=\"{{ variant_image | img_url: 'large' }}\" alt=\"{{ variant.title }}\" \/>\n                                    {% else %}\n                                        <p>No image available for this variant.<\/p>\n                                    {% endif %}\n                                <\/div>\n                                <div class=\"product-variant-info\">\n                                    <span class=\"product-variant-title h5\">{{ variant.option1 }}<\/span>\n                                    <span class=\"product-variant-sku\">{{ variant.sku }}<\/span>\n                                <\/div>\n                            <\/div>\n                        <\/li>\n                    {% endfor %}\n            <\/ul>\n        <\/div>\n    <\/div>\n<\/section>",
         "color_scheme": "scheme-2",
