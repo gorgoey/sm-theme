@@ -82,7 +82,7 @@
         "custom_liquid_yVfzD6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p><{variant.custom.size}\/p>"
+            "custom_liquid": "{% for variant in product.variants %}\n{% assign variant_size = variant.custom.size %}\n{% if variant_size %}\n<p><{variant_size}<\/p>\n{% endif %}\n{% endfor %}"
           }
         },
         "collapsible-row-0": {
