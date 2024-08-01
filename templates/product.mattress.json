@@ -76,6 +76,7 @@
         },
         "custom_liquid_yVfzD6": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign selected_variant = product.variants | first %}\n{% if selected_variant %}\n  <p>Mattress Size: {{ selected_variant.metafields.custom.mattresssize }}<\/p>\n{% else %}\n  <p>Variant not found.<\/p>\n{% endif %}"
           }
