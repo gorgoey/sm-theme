@@ -67,18 +67,6 @@
             "swatch_shape": "circle"
           }
         },
-        "icon_with_text_d9Lmah": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "ruler",
-            "heading_1": "",
-            "icon_2": "none",
-            "heading_2": "",
-            "icon_3": "none",
-            "heading_3": ""
-          }
-        },
         "custom_liquid_yVfzD6": {
           "type": "custom_liquid",
           "disabled": true,
@@ -137,7 +125,6 @@
         "price",
         "description",
         "variant_picker_ewzrHn",
-        "icon_with_text_d9Lmah",
         "custom_liquid_yVfzD6",
         "collapsible-row-0",
         "collapsible-row-2",
