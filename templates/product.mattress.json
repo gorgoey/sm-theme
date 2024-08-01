@@ -72,7 +72,7 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "ruler",
-            "heading_1": "{variant.custom.size}",
+            "heading_1": "",
             "icon_2": "none",
             "heading_2": "",
             "icon_3": "none",
@@ -81,8 +81,9 @@
         },
         "custom_liquid_yVfzD6": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "{% if variant.metafields.custom.size %}\n  <p>Material: {{ variant.metafields.custom.size }}<\/p>\n{% else %}\n  <p>Size information is not available.<\/p>\n{% endif %}"
+            "custom_liquid": "{% for variant in product.variants %}\n  <p>Variant: {{ variant.title }}<\/p>\n  <p>Material: {{ variant.metafields.custom.mattresssize }}<\/p>\n\n{% if variant.metafields.custom.mattresssize %}\n  <p>Material: {{ variant.metafields.custom.mattresssize }}<\/p>\n{% else %}\n  <p>Material information is not available.<\/p>\n{% endif %}\n\n\n{% endfor %}"
           }
         },
         "collapsible-row-0": {
