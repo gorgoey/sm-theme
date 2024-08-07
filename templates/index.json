@@ -477,6 +477,53 @@
         "padding_top": 44,
         "padding_bottom": 48
       }
+    },
+    "image_with_text_biYXhH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_69f9Bh": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>บริษัท เอสเอ็ม สมานเฟอร์นิเจอร์ จำกัด<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_kWW66V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>160 หมู่ 1 ตำบล ไพรขลา อำเภอ ชุมพลบุรี<br\/>จังหวัด สุรินทร์<br\/><br\/>โทร : <a href=\"tel:081-470-1238\" title=\"tel:081-470-1238\">081-470-1238<\/a> , <a href=\"tel:084-227-7227\" title=\"tel:084-227-7227\">084-227-7227<\/a><br\/>Email : <a href=\"mailto:sm.samanfurniture@gmail.com\" title=\"mailto:sm.samanfurniture@gmail.com\">sm.samanfurniture@gmail.com<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_raQpyF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Google Map",
+            "button_link": "https:\/\/maps.app.goo.gl\/MGCB9ygcZTZgHZLZ7",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_69f9Bh",
+        "text_kWW66V",
+        "button_raQpyF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/map.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-4",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -488,6 +535,7 @@
     "collage_9wEbPb",
     "multicolumn1",
     "featured_collection2",
-    "multicolumn2"
+    "multicolumn2",
+    "image_with_text_biYXhH"
   ]
 }
